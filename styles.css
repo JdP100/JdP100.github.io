@@ -45,7 +45,7 @@ body
 }
 
 /* Home */
-#home
+#Home
 {
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@ body
     align-items: center;
     background-color: bisque;
 }
-#home::before
+#Home::before
 {
     content: "";
     position: absolute;
