@@ -158,7 +158,6 @@ body
 {
     display: flex;
     flex-direction: column;
-    height: 650px;
     justify-content: center;
     align-items: center;
     background-color: bisque;
