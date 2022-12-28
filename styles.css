@@ -45,7 +45,7 @@ body
 }
 
 /* Home */
-#Home
+#home
 {
     display: flex;
     flex-direction: column;
@@ -53,8 +53,9 @@ body
     justify-content: center;
     align-items: center;
     background-color: bisque;
+    color: white;
 }
-#Home::before
+#home::before
 {
     content: "";
     position: absolute;
@@ -64,5 +65,13 @@ body
     height: 700px;
     width: 100%;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.8;
+}
+.heading
+{
+    color: white;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: scale(1,1.3);
 }
