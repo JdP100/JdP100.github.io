@@ -45,7 +45,7 @@ body
 }
 
 /* Home */
-#home
+#Home
 {
     display: flex;
     flex-direction: column;
@@ -55,13 +55,13 @@ body
     background-color: bisque;
     color: white;
 }
-#home::before
+#Home::before
 {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background: url('Simple_Background.png') no-repeat center center/cover;
+    /*background: url('Simple_Background.png') no-repeat center center/cover;*/
     height: 700px;
     width: 100%;
     z-index: -1;
