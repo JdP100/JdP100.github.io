@@ -151,3 +151,16 @@ body
     color: whitesmoke;
     font-size: 1.1rem;
 }
+
+
+/* Resume */
+#Resume
+{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    color: black;
+}
