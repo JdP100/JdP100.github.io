@@ -109,7 +109,7 @@ body
 .gallery img:hover
 {
     background-color: aliceblue;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 
