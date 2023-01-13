@@ -1,0 +1,140 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background: pink;
+    text-align: center;
+}
+
+
+/* Navbar */
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: relative;
+}
+.navbar::before
+{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li
+{
+    font-size: 1.1rem;
+}
+.navbar ul li a
+{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover
+{
+    border-bottom: 2px solid yellow;
+}
+
+/* Project Desc. */
+#ProjectDesc
+{
+    display: flex;
+    flex-direction: column;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: #000000dc;
+    color: whitesmoke;
+}
+#ProjectDesc h1
+{
+    margin: 60px;
+    color: yellow;
+    font-size: 5.0rem;
+    text-align: left;
+}
+
+/* Custom */
+.grouping
+{
+    width: 700px;
+    height: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+.grouping img
+{
+    width: 600px;
+    height: 550px;
+    padding: 10px;
+    margin: 10px;
+}
+.g_box
+{
+    height: 600px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.t_box
+{
+    height: 400px;
+    width: 1400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 40px;
+    padding: 10px;
+}
+
+.layer1
+{
+    display: flex;
+    flex-direction: row;
+}
+.layer2
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.layer3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.layer3 img
+{
+    width: 75px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+.layer3 img:hover
+{
+    background-color: aliceblue;
+}
+
+/*
+.g_box h2
+{
+    color: yellow;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.g_box p
+{
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+*/
