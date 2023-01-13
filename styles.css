@@ -113,6 +113,7 @@ body
 }
 
 
+
 /* Projects */
 #Projects
 {
@@ -188,4 +189,45 @@ body
 {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+}
+
+/* Custom */
+.grouping
+{
+    width: 500px;
+    height: 885px;
+    padding: 10px;
+    margin: 10px;
+}
+.grouping img
+{
+    width: 36px;
+    height: 64px;
+    padding: 10px;
+    margin: 10px;
+}
+.grouping img:hover
+{
+    background-color: aliceblue;
+    /* cursor: pointer; */
+}
+.g_box
+{
+    height: 225px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.g_box h2
+{
+    color: yellow;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.g_box p
+{
+    color: whitesmoke;
+    font-size: 1.1rem;
 }
